@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Quicksand:wght@300&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #6C6B8C;
+  font-size: 17px;
+  text-align: center;
+  background: #F7F9FC;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #729B75;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  font-size: 17px;
+}
+
+a {
+  color: #6B72E1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+img {
+  border-radius: 50% 20% / 10% 40%;;
+  width: 30%;
+}
+
+#call-to-action {
+  color: white;
+  font-weight: bold;
+}
+
+#call-to-action:hover {
+  color: #fa987d;
+}
+
+.btn-action {
+  margin: 1em 2em;
+  background-color: #6B72E1;
+  padding: 8px 8px;
+  border-radius: 4px;
+  width: fit-content;
+  display: inline-block;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  box-shadow: 0px 2px 8px 0 rgb(174, 175, 177);
+  margin: 2em 4em;
+  padding: 1em 2em;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 500px;
+  }
+}
